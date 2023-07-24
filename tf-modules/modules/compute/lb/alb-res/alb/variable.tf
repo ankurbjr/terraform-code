@@ -1,0 +1,10 @@
+variable "sg-id" {}
+variable "subnet-id" {}
+variable "environment" {}
+#variable "subnet-cidr" {}
+variable "alb_listener_port" {}
+variable "alb_listener_protocol" {}
+variable "target_group_arn" {}
+variable "alb_path" {}
+#variable "alb-listener-arn" {}
+variable "alb-tg-id" {}
